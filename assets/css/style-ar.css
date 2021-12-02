@@ -11444,7 +11444,7 @@ body .product-popup {
   position: fixed;
   top: 0;
   right: 0;
-  z-index: 99999;
+  z-index: 999;
 }
 
 .sidebar-overlay {
@@ -22940,6 +22940,20 @@ body.story-active {
 
 .auction-details .countdown-section {
   font-weight: bold;
+}
+
+.sidebar.shop-sidebar .sidebar-content {
+  transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -moz-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  -o-transform: translateX(100%);
+}
+
+.sidebar-active .sidebar .sidebar-content, .right-sidebar-active .right-sidebar .sidebar-content {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  opacity: 1;
 }
 
 
