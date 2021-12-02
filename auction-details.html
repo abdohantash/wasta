@@ -31,22 +31,29 @@
                     <div class="header-left mr-md-4">
                         <a href="#" class="mobile-menu-toggle  w-icon-hamburger"></a>
                         <a href="index.html" class="logo">
-                            <img src="assets/images/logo.svg" alt="logo" width="144" height="45">
+                            <img src="assets/images/logo.svg" alt="logo">
                         </a>
                         <form method="get" action="#"
                             class="input-wrapper header-search hs-expanded hs-round d-none d-md-flex">
                             <div class="select-box">
                                 <select id="category" name="category">
                                     <option value="">كل الاقسام</option>
-                                    <option value="4">Fashion</option>
-                                    <option value="5">Furniture</option>
-                                    <option value="6">Shoes</option>
-                                    <option value="7">Sports</option>
-                                    <option value="8">Games</option>
-                                    <option value="9">Computers</option>
-                                    <option value="10">Electronics</option>
-                                    <option value="11">Kitchen</option>
-                                    <option value="12">Clothing</option>
+                                    <option value="1">سيارات</option>
+                                    <option value="2">عقارات</option>
+                                    <option value="3">اجهزة</option>
+                                    <option value="4">حيوانات وطيور</option>
+                                    <option value="5">اثاث</option>
+                                    <option value="6">مستلزمات شخصية</option>
+                                    <option value="7">خدمات</option>
+                                    <option value="8">وظائف</option>
+                                    <option value="9">اطعمة ومشروبات</option>
+                                    <option value="10">برمجة وتصاميم</option>
+                                    <option value="11">مكتبة وفنون</option>
+                                    <option value="12">صيد ورحلات</option>
+                                    <option value="13">العاب وترفيه</option>
+                                    <option value="14">زراعة وحدائق</option>
+                                    <option value="15">حفلات ومناسبات</option>
+                                    <option value="16">سفر وسياحة</option>
                                 </select>
                             </div>
                             <input type="text" class="form-control pt-0 pb-0" name="search" id="search"
@@ -61,15 +68,15 @@
                             <i class="fa fa-globe"></i>
                             <em>EN</em>
                         </a>
-                        <div class="account align-items-center d-sm-show">
+                        <div class="account align-items-center">
                             <a class="login inline-type d-flex ls-normal" href="#login-register" rel="modal:open">
                                 <i class="w-icon-account d-flex align-items-center justify-content-center br-50"></i>
-                                <span class="d-flex flex-column justify-content-center ml-3 d-xl-show">مرحبا بك
+                                <span class="d-flex flex-column justify-content-center ml-3">مرحبا بك
                                     <b class="d-block ls-25">تسجيل الدخول</b>
                                 </span>
                             </a>
                         </div>
-                        <a href="add-ads.html" class="add-lis btn btn-secondary btn-ellipse">
+                        <a href="#add-ads" rel="modal:open" class="add-lis btn btn-secondary btn-ellipse">
                             <i class="fa fa-plus"></i>
                             اضف اعلانك
                         </a>
@@ -80,7 +87,7 @@
                 <div class="container-fluid">
                     <div class="inner-wrap">
                         <div class="header-left">
-                            
+
                             <nav class="main-nav ml-0">
                                 <ul class="menu">
                                     <li>
@@ -226,11 +233,6 @@
                                                 </div>
                                             </li>
                                         </ul>
-                                    </li>                          
-                                    <li>
-                                        <a href="auctions.html">
-                                            المزادات
-                                        </a>
                                     </li>
                                     <li>
                                         <a href="products.html">
@@ -252,12 +254,12 @@
                         </div>
                         <div class="header-right pl-0">
                             <a href="flash.html">
-                                <i class="w-icon-lightning"></i>
-                                <span>فلاش سيل</span>
+                                <img src="assets/images/icons/thunder.gif" alt="">
+                                <span>عروض فلاش</span>
                             </a>
-                            <a href="products.html">
-                                <i class="w-icon-sale"></i>
-                                <span>اعلانات مميزة</span>
+                            <a href="auctions.html">
+                                <img src="assets/images/icons/acution.gif" alt="">
+                                <span>المزادات</span>
                             </a>
                         </div>
                     </div>
@@ -268,239 +270,197 @@
         <!-- Start of Main -->
         <main class="main">
             <div class="container mb-5">
-                <div class="swiper-category swiper-theme pt-4" dir="rtl">
+                <div class="category-sec swiper-theme pt-4" dir="rtl">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide category category-ellipse">
                             <figure class="category-media">
-                                <a href="demo12-shop.html">
-                                    <img src="assets/images/demos/demo12/category/cat-1-1.jpg" alt="Categroy" width="190"
-                                        height="190" />
+                                <a href="products.html">
+                                    <img src="assets/images/category/1.png" alt="" />
                                 </a>
                             </figure>
                             <div class="category-content">
                                 <h4 class="category-name">
-                                    <a href="demo12-shop.html">T-Shirt</a>
+                                    <a href="products.html">سيارات</a>
                                 </h4>
                             </div>
                         </div>
                         <div class="swiper-slide category category-ellipse ">
                             <figure class="category-media">
-                                <a href="demo12-shop.html">
-                                    <img src="assets/images/demos/demo12/category/cat-2-1.jpg" alt="Categroy" width="190"
-                                        height="190" />
+                                <a href="products.html">
+                                    <img src="assets/images/category/2.png" alt="" />
                                 </a>
                             </figure>
                             <div class="category-content">
                                 <h4 class="category-name">
-                                    <a href="demo12-shop.html">Shoes</a>
+                                    <a href="products.html">عقارات</a>
                                 </h4>
                             </div>
                         </div>
                         <div class="swiper-slide category category-ellipse ">
                             <figure class="category-media">
-                                <a href="demo12-shop.html">
-                                    <img src="assets/images/demos/demo12/category/cat-3-1.jpg" alt="Categroy" width="190"
-                                        height="190" />
+                                <a href="products.html">
+                                    <img src="assets/images/category/3.png" alt="" />
                                 </a>
                             </figure>
                             <div class="category-content">
                                 <h4 class="category-name">
-                                    <a href="demo12-shop.html">Camera</a>
+                                    <a href="products.html">اجهزة</a>
                                 </h4>
                             </div>
                         </div>
                         <div class="swiper-slide category category-ellipse ">
                             <figure class="category-media">
-                                <a href="demo12-shop.html">
-                                    <img src="assets/images/demos/demo12/category/cat-4-1.jpg" alt="Categroy" width="190"
-                                        height="190" />
+                                <a href="products.html">
+                                    <img src="assets/images/category/4.png" alt="" />
                                 </a>
                             </figure>
                             <div class="category-content">
                                 <h4 class="category-name">
-                                    <a href="demo12-shop.html">Valise</a>
+                                    <a href="products.html">حيوانات وطيور</a>
                                 </h4>
                             </div>
                         </div>
                         <div class="swiper-slide category category-ellipse ">
                             <figure class="category-media">
-                                <a href="demo12-shop.html">
-                                    <img src="assets/images/demos/demo12/category/cat-5-1.jpg" alt="Categroy" width="190"
-                                        height="190" />
+                                <a href="products.html">
+                                    <img src="assets/images/category/5.png" alt="" />
                                 </a>
                             </figure>
                             <div class="category-content">
                                 <h4 class="category-name">
-                                    <a href="demo12-shop.html">Jewelry</a>
+                                    <a href="products.html">اثاث</a>
                                 </h4>
                             </div>
                         </div>
                         <div class="swiper-slide category category-ellipse ">
                             <figure class="category-media">
-                                <a href="demo12-shop.html">
-                                    <img src="assets/images/demos/demo12/category/cat-6-1.jpg" alt="Categroy" width="190"
-                                        height="190" />
+                                <a href="products.html">
+                                    <img src="assets/images/category/6.png" alt="" />
                                 </a>
                             </figure>
                             <div class="category-content">
                                 <h4 class="category-name">
-                                    <a href="demo12-shop.html">Earphone</a>
+                                    <a href="products.html">مستلزمات شخصية</a>
                                 </h4>
                             </div>
                         </div>
                         <div class="swiper-slide category category-ellipse ">
                             <figure class="category-media">
-                                <a href="demo12-shop.html">
-                                    <img src="assets/images/demos/demo12/category/cat-7-1.jpg" alt="Categroy" width="190"
-                                        height="190" />
+                                <a href="products.html">
+                                    <img src="assets/images/category/7.png" alt="" />
                                 </a>
                             </figure>
                             <div class="category-content">
                                 <h4 class="category-name">
-                                    <a href="demo12-shop.html">Gifts</a>
+                                    <a href="products.html">خدمات</a>
                                 </h4>
                             </div>
                         </div>
                         <div class="swiper-slide category category-ellipse ">
                             <figure class="category-media">
-                                <a href="demo12-shop.html">
-                                    <img src="assets/images/demos/demo12/category/cat-8-1.jpg" alt="Categroy" width="190"
-                                        height="190" />
+                                <a href="products.html">
+                                    <img src="assets/images/category/8.png" alt="" />
                                 </a>
                             </figure>
                             <div class="category-content">
                                 <h4 class="category-name">
-                                    <a href="demo12-shop.html">Kids</a>
+                                    <a href="products.html">وظائف</a>
                                 </h4>
                             </div>
                         </div>
                         <div class="swiper-slide category category-ellipse ">
                             <figure class="category-media">
-                                <a href="demo12-shop.html">
-                                    <img src="assets/images/demos/demo12/category/cat-9-1.jpg" alt="Categroy" width="190"
-                                        height="190" />
+                                <a href="products.html">
+                                    <img src="assets/images/category/9.png" alt="" />
                                 </a>
                             </figure>
                             <div class="category-content">
                                 <h4 class="category-name">
-                                    <a href="demo12-shop.html">Sports</a>
+                                    <a href="products.html">اطعمة ومشروبات</a>
                                 </h4>
                             </div>
                         </div>
                         <div class="swiper-slide category category-ellipse ">
                             <figure class="category-media">
-                                <a href="demo12-shop.html">
-                                    <img src="assets/images/demos/demo12/category/cat-10-1.jpg" alt="Categroy" width="190"
-                                        height="190" />
+                                <a href="products.html">
+                                    <img src="assets/images/category/10.png" alt="" />
                                 </a>
                             </figure>
                             <div class="category-content">
                                 <h4 class="category-name">
-                                    <a href="demo12-shop.html">Beauty</a>
+                                    <a href="products.html">برمجة وتصاميم</a>
                                 </h4>
                             </div>
                         </div>
                         <div class="swiper-slide category category-ellipse ">
                             <figure class="category-media">
-                                <a href="demo12-shop.html">
-                                    <img src="assets/images/demos/demo12/category/cat-11-1.jpg" alt="Categroy" width="190"
-                                        height="190" />
+                                <a href="products.html">
+                                    <img src="assets/images/category/11.png" alt="" />
                                 </a>
                             </figure>
                             <div class="category-content">
                                 <h4 class="category-name">
-                                    <a href="demo12-shop.html">Accessories</a>
+                                    <a href="products.html">مكتبة وفنون</a>
                                 </h4>
                             </div>
                         </div>
                         <div class="swiper-slide category category-ellipse ">
                             <figure class="category-media">
-                                <a href="demo12-shop.html">
-                                    <img src="assets/images/demos/demo12/category/cat-7-1.jpg" alt="Categroy" width="190"
-                                        height="190" />
+                                <a href="products.html">
+                                    <img src="assets/images/category/12.png" alt="" />
                                 </a>
                             </figure>
                             <div class="category-content">
                                 <h4 class="category-name">
-                                    <a href="demo12-shop.html">Gifts</a>
+                                    <a href="products.html">صيد ورحلات</a>
                                 </h4>
                             </div>
                         </div>
                         <div class="swiper-slide category category-ellipse ">
                             <figure class="category-media">
-                                <a href="demo12-shop.html">
-                                    <img src="assets/images/demos/demo12/category/cat-8-1.jpg" alt="Categroy" width="190"
-                                        height="190" />
+                                <a href="products.html">
+                                    <img src="assets/images/category/13.png" alt="" />
                                 </a>
                             </figure>
                             <div class="category-content">
                                 <h4 class="category-name">
-                                    <a href="demo12-shop.html">Kids</a>
+                                    <a href="products.html">العاب وترفيه</a>
                                 </h4>
                             </div>
                         </div>
                         <div class="swiper-slide category category-ellipse ">
                             <figure class="category-media">
-                                <a href="demo12-shop.html">
-                                    <img src="assets/images/demos/demo12/category/cat-9-1.jpg" alt="Categroy" width="190"
-                                        height="190" />
+                                <a href="products.html">
+                                    <img src="assets/images/category/14.png" alt="" />
                                 </a>
                             </figure>
                             <div class="category-content">
                                 <h4 class="category-name">
-                                    <a href="demo12-shop.html">Sports</a>
+                                    <a href="products.html">زراعة وحدائق</a>
                                 </h4>
                             </div>
                         </div>
                         <div class="swiper-slide category category-ellipse ">
                             <figure class="category-media">
-                                <a href="demo12-shop.html">
-                                    <img src="assets/images/demos/demo12/category/cat-10-1.jpg" alt="Categroy" width="190"
-                                        height="190" />
+                                <a href="products.html">
+                                    <img src="assets/images/category/15.png" alt="" />
                                 </a>
                             </figure>
                             <div class="category-content">
                                 <h4 class="category-name">
-                                    <a href="demo12-shop.html">Beauty</a>
+                                    <a href="products.html">حفلات ومناسبات</a>
                                 </h4>
                             </div>
                         </div>
                         <div class="swiper-slide category category-ellipse ">
                             <figure class="category-media">
-                                <a href="demo12-shop.html">
-                                    <img src="assets/images/demos/demo12/category/cat-11-1.jpg" alt="Categroy" width="190"
-                                        height="190" />
+                                <a href="products.html">
+                                    <img src="assets/images/category/16.png" alt="" />
                                 </a>
                             </figure>
                             <div class="category-content">
                                 <h4 class="category-name">
-                                    <a href="demo12-shop.html">Accessories</a>
-                                </h4>
-                            </div>
-                        </div>
-                        <div class="swiper-slide category category-ellipse ">
-                            <figure class="category-media">
-                                <a href="demo12-shop.html">
-                                    <img src="assets/images/demos/demo12/category/cat-7-1.jpg" alt="Categroy" width="190"
-                                        height="190" />
-                                </a>
-                            </figure>
-                            <div class="category-content">
-                                <h4 class="category-name">
-                                    <a href="demo12-shop.html">Gifts</a>
-                                </h4>
-                            </div>
-                        </div>
-                        <div class="swiper-slide category category-ellipse ">
-                            <figure class="category-media">
-                                <a href="demo12-shop.html">
-                                    <img src="assets/images/demos/demo12/category/cat-8-1.jpg" alt="Categroy" width="190"
-                                        height="190" />
-                                </a>
-                            </figure>
-                            <div class="category-content">
-                                <h4 class="category-name">
-                                    <a href="demo12-shop.html">Kids</a>
+                                    <a href="products.html">سفر وسياحة</a>
                                 </h4>
                             </div>
                         </div>
@@ -563,8 +523,8 @@
                                         <div class="col-md-12">
                                             <div class="auction-sec">
                                                 <div class="right-sec">
-                                                    <div class="auction-countdown-container">
-                                                        <div class="product-countdown countdown-compact" data-until="2021, 12, 9"
+                                                    <div class="auction-countdown-container auction-details">
+                                                        <div class="product-countdown countdown-compact" data-until="2021, 12, 30"
                                                             data-format="DHMS" data-compact="false"
                                                             data-labels-short="يوم, ساعة, دقيقة, ثانية">
                                                         </div>
@@ -600,6 +560,9 @@
                                                     </div>
                                                 </div>
                                                 <div class="left-sec">
+                                                    <div class="auctions">
+                                                        <h3>المزايدات</h3>
+                                                    </div>
                                                     <ul>
                                                         <li>
                                                             <div class="img-name">
@@ -983,7 +946,9 @@
                     <aside class="sidebar product-sidebar sidebar-fixed right-sidebar sticky-sidebar-wrapper">
                         <div class="sidebar-overlay"></div>
                         <a class="sidebar-close" href="#"><i class="close-icon"></i></a>
-                        <a href="#" class="sidebar-toggle d-flex d-lg-none"><i class="fas fa-chevron-left"></i></a>
+                        <a href="#" class="sidebar-toggle d-flex d-lg-none">
+                            <i class="w-icon-call"></i>
+                        </a>
                         <div class="sidebar-content scrollable auction-div">
                                 <div class="single widget sticky-div">
                                     <div class="share">
