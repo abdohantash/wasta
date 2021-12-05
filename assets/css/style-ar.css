@@ -11568,7 +11568,7 @@ body .product-popup {
 }
 
 .filter-actions .filter-clean {
-  padding-bottom: 0;
+  padding: 0;
   text-transform: capitalize;
   font-weight: 400;
 }
@@ -22641,8 +22641,8 @@ h3.tilte-head {
 }
 
 .header-right a img {
-  height: 31px;
-  width: 31px;
+  height: 32px;
+  width: 32px;
   margin-left: 2px;
 }
 
