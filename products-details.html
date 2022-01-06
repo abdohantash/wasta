@@ -1,0 +1,1488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>وسطة - Wasta</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/logo-icon.svg">
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/fontawesome-free/css/all.min.css">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendor/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendor/magnific-popup/magnific-popup.min.css">
+    <link rel="stylesheet" href="assets/js/lightgallery/css/lightgallery-bundle.css">
+    <link href="assets/js/jquery-modal-master/jquery.modal.css" rel="stylesheet" />
+    <link href="assets/js/filepond/filepond.css" rel="stylesheet" />
+    <link href="assets/js/filepond/filepond-plugin-image-preview.css" rel="stylesheet" />
+    <!-- Default CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style-ar.css">
+</head>
+
+<body class="home">
+    <div class="page-wrapper">
+<!-- Start of Header -->
+<header class="header">
+    <div class="header-middle sticky-content fix-top sticky-header border-no">
+        <div class="container">
+            <div class="header-left mr-md-4">
+                <a href="#" class="mobile-menu-toggle  w-icon-hamburger"></a>
+                <a href="index.html" class="logo">
+                    <img src="assets/images/logo.svg" alt="logo">
+                </a>
+                <form method="get" action="#"
+                    class="input-wrapper header-search hs-expanded hs-round d-none d-md-flex">
+                    <div class="select-box">
+                        <select id="category" name="category">
+                            <option value="">كل الاقسام</option>
+                            <option value="1">سيارات</option>
+                            <option value="2">عقارات</option>
+                            <option value="3">اجهزة</option>
+                            <option value="4">حيوانات وطيور</option>
+                            <option value="5">اثاث</option>
+                            <option value="6">مستلزمات شخصية</option>
+                            <option value="7">خدمات</option>
+                            <option value="8">وظائف</option>
+                            <option value="9">اطعمة ومشروبات</option>
+                            <option value="10">برمجة وتصاميم</option>
+                            <option value="11">مكتبة وفنون</option>
+                            <option value="12">صيد ورحلات</option>
+                            <option value="13">العاب وترفيه</option>
+                            <option value="14">زراعة وحدائق</option>
+                            <option value="15">حفلات ومناسبات</option>
+                            <option value="16">سفر وسياحة</option>
+                        </select>
+                    </div>
+                    <input type="text" class="form-control pt-0 pb-0" name="search" id="search"
+                        placeholder="ابحث هنا" required />
+                    <button class="btn btn-search" type="submit">
+                        <i class="w-icon-search"></i>
+                    </button>
+                </form>
+            </div>
+            <div class="header-right ml-4">
+                <a href="#" class="lang">
+                    <i class="fa fa-globe"></i>
+                    <em>EN</em>
+                </a>
+                <div class="account align-items-center">
+                    <a class="login inline-type d-flex ls-normal" href="#login-register" rel="modal:open">
+                        <i class="w-icon-account d-flex align-items-center justify-content-center br-50"></i>
+                        <span class="d-flex flex-column justify-content-center ml-3">مرحبا بك
+                            <b class="d-block ls-25">تسجيل الدخول</b>
+                        </span>
+                    </a>
+                </div>
+                <a href="#add-ads" rel="modal:open" class="add-lis btn btn-secondary btn-ellipse">
+                    <i class="fa fa-plus"></i>
+                    اضف اعلانك
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="header-bottom sticky-content fix-top sticky-header">
+        <div class="container-fluid">
+            <div class="inner-wrap">
+                <div class="header-left">
+
+                    <nav class="main-nav ml-0">
+                        <ul class="menu">
+                            <li>
+                                <a href="index.html">
+                                    الرئيسية
+                                </a>
+                            </li>
+                            <li class="has-submenu">
+                                <a href="#">
+                                    الماركات
+                                </a>
+                                <ul class="megamenu">
+                                    <li>
+                                        <div class="brands-div">
+                                            <a href="products.html" class="brand">
+                                                <img src="assets/images/brands/1.svg" alt="تويوتا">
+                                                <span>تويوتا</span>
+                                            </a>
+                                            <a href="products.html" class="brand">
+                                                <img src="assets/images/brands/2.svg" alt="فورد">
+                                                <span>فورد</span>
+                                            </a>
+                                            <a href="products.html" class="brand">
+                                                <img src="assets/images/brands/3.svg" alt="شيفروليه">
+                                                <span>شيفروليه</span>
+                                            </a>
+                                            <a href="products.html" class="brand">
+                                                <img src="assets/images/brands/4.svg" alt="نيسان">
+                                                <span>نيسان</span>
+                                            </a>
+                                            <a href="products.html" class="brand">
+                                                <img src="assets/images/brands/5.svg" alt="بى ام دبليو">
+                                                <span>بى ام دبليو</span>
+                                            </a>
+                                            <a href="products.html" class="brand">
+                                                <img src="assets/images/brands/6.svg" alt="رينو">
+                                                <span>رينو</span>
+                                            </a>
+                                            <a href="products.html" class="brand">
+                                                <img src="assets/images/brands/7.svg" alt="ام جي">
+                                                <span>ام جي</span>
+                                            </a>
+                                            <a href="products.html" class="brand">
+                                                <img src="assets/images/brands/8.svg" alt="اسكودا">
+                                                <span>اسكودا</span>
+                                            </a>
+                                            <a href="products.html" class="brand">
+                                                <img src="assets/images/brands/1.svg" alt="تويوتا">
+                                                <span>تويوتا</span>
+                                            </a>
+                                            <a href="products.html" class="brand">
+                                                <img src="assets/images/brands/2.svg" alt="فورد">
+                                                <span>فورد</span>
+                                            </a>
+                                            <a href="products.html" class="brand">
+                                                <img src="assets/images/brands/3.svg" alt="شيفروليه">
+                                                <span>شيفروليه</span>
+                                            </a>
+                                            <a href="products.html" class="brand">
+                                                <img src="assets/images/brands/4.svg" alt="نيسان">
+                                                <span>نيسان</span>
+                                            </a>
+                                            <a href="products.html" class="brand">
+                                                <img src="assets/images/brands/5.svg" alt="بى ام دبليو">
+                                                <span>بى ام دبليو</span>
+                                            </a>
+                                            <a href="products.html" class="brand">
+                                                <img src="assets/images/brands/6.svg" alt="رينو">
+                                                <span>رينو</span>
+                                            </a>
+                                            <a href="products.html" class="brand">
+                                                <img src="assets/images/brands/7.svg" alt="ام جي">
+                                                <span>ام جي</span>
+                                            </a>
+                                            <a href="products.html" class="brand">
+                                                <img src="assets/images/brands/8.svg" alt="اسكودا">
+                                                <span>اسكودا</span>
+                                            </a>
+                                            <a href="products.html" class="brand">
+                                                <img src="assets/images/brands/1.svg" alt="تويوتا">
+                                                <span>تويوتا</span>
+                                            </a>
+                                            <a href="products.html" class="brand">
+                                                <img src="assets/images/brands/2.svg" alt="فورد">
+                                                <span>فورد</span>
+                                            </a>
+                                            <a href="products.html" class="brand">
+                                                <img src="assets/images/brands/3.svg" alt="شيفروليه">
+                                                <span>شيفروليه</span>
+                                            </a>
+                                            <a href="products.html" class="brand">
+                                                <img src="assets/images/brands/4.svg" alt="نيسان">
+                                                <span>نيسان</span>
+                                            </a>
+                                            <a href="products.html" class="brand">
+                                                <img src="assets/images/brands/5.svg" alt="بى ام دبليو">
+                                                <span>بى ام دبليو</span>
+                                            </a>
+                                            <a href="products.html" class="brand">
+                                                <img src="assets/images/brands/6.svg" alt="رينو">
+                                                <span>رينو</span>
+                                            </a>
+                                            <a href="products.html" class="brand">
+                                                <img src="assets/images/brands/7.svg" alt="ام جي">
+                                                <span>ام جي</span>
+                                            </a>
+                                            <a href="products.html" class="brand">
+                                                <img src="assets/images/brands/8.svg" alt="اسكودا">
+                                                <span>اسكودا</span>
+                                            </a>
+                                            <a href="products.html" class="brand">
+                                                <img src="assets/images/brands/1.svg" alt="تويوتا">
+                                                <span>تويوتا</span>
+                                            </a>
+                                            <a href="products.html" class="brand">
+                                                <img src="assets/images/brands/2.svg" alt="فورد">
+                                                <span>فورد</span>
+                                            </a>
+                                            <a href="products.html" class="brand">
+                                                <img src="assets/images/brands/3.svg" alt="شيفروليه">
+                                                <span>شيفروليه</span>
+                                            </a>
+                                            <a href="products.html" class="brand">
+                                                <img src="assets/images/brands/4.svg" alt="نيسان">
+                                                <span>نيسان</span>
+                                            </a>
+                                            <a href="products.html" class="brand">
+                                                <img src="assets/images/brands/5.svg" alt="بى ام دبليو">
+                                                <span>بى ام دبليو</span>
+                                            </a>
+                                            <a href="products.html" class="brand">
+                                                <img src="assets/images/brands/6.svg" alt="رينو">
+                                                <span>رينو</span>
+                                            </a>
+                                            <a href="products.html" class="brand">
+                                                <img src="assets/images/brands/7.svg" alt="ام جي">
+                                                <span>ام جي</span>
+                                            </a>
+                                            <a href="products.html" class="brand">
+                                                <img src="assets/images/brands/8.svg" alt="اسكودا">
+                                                <span>اسكودا</span>
+                                            </a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="products.html">
+                                    مستلزمات نسائية
+                                </a>
+                            </li>
+                            <li>
+                                <a href="about.html">
+                                    من نحن
+                                </a>
+                            </li>
+                            <li>
+                                <a href="contact.html">
+                                    مساعدة واتصال
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header-right pl-0">
+                    <a href="flash.html">
+                        <img src="assets/images/icons/thunder.gif" alt="">
+                        <span>عروض فلاش</span>
+                    </a>
+                    <a href="auctions.html">
+                        <img src="assets/images/icons/acution.gif" alt="">
+                        <span>المزادات</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- End of Header -->
+        <!-- Start of Main -->
+        <main class="main">
+            <div class="container mb-5">
+                <div class="category-sec swiper-theme pt-4" >
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide category category-ellipse">
+                            <figure class="category-media">
+                                <a href="products.html">
+                                    <img src="assets/images/category/1.png" alt="" />
+                                </a>
+                            </figure>
+                            <div class="category-content">
+                                <h4 class="category-name">
+                                    <a href="products.html">سيارات</a>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide category category-ellipse ">
+                            <figure class="category-media">
+                                <a href="products.html">
+                                    <img src="assets/images/category/2.png" alt="" />
+                                </a>
+                            </figure>
+                            <div class="category-content">
+                                <h4 class="category-name">
+                                    <a href="products.html">عقارات</a>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide category category-ellipse ">
+                            <figure class="category-media">
+                                <a href="products.html">
+                                    <img src="assets/images/category/3.png" alt="" />
+                                </a>
+                            </figure>
+                            <div class="category-content">
+                                <h4 class="category-name">
+                                    <a href="products.html">اجهزة</a>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide category category-ellipse ">
+                            <figure class="category-media">
+                                <a href="products.html">
+                                    <img src="assets/images/category/4.png" alt="" />
+                                </a>
+                            </figure>
+                            <div class="category-content">
+                                <h4 class="category-name">
+                                    <a href="products.html">حيوانات وطيور</a>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide category category-ellipse ">
+                            <figure class="category-media">
+                                <a href="products.html">
+                                    <img src="assets/images/category/5.png" alt="" />
+                                </a>
+                            </figure>
+                            <div class="category-content">
+                                <h4 class="category-name">
+                                    <a href="products.html">اثاث</a>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide category category-ellipse ">
+                            <figure class="category-media">
+                                <a href="products.html">
+                                    <img src="assets/images/category/6.png" alt="" />
+                                </a>
+                            </figure>
+                            <div class="category-content">
+                                <h4 class="category-name">
+                                    <a href="products.html">مستلزمات شخصية</a>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide category category-ellipse ">
+                            <figure class="category-media">
+                                <a href="products.html">
+                                    <img src="assets/images/category/7.png" alt="" />
+                                </a>
+                            </figure>
+                            <div class="category-content">
+                                <h4 class="category-name">
+                                    <a href="products.html">خدمات</a>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide category category-ellipse ">
+                            <figure class="category-media">
+                                <a href="products.html">
+                                    <img src="assets/images/category/8.png" alt="" />
+                                </a>
+                            </figure>
+                            <div class="category-content">
+                                <h4 class="category-name">
+                                    <a href="products.html">وظائف</a>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide category category-ellipse ">
+                            <figure class="category-media">
+                                <a href="products.html">
+                                    <img src="assets/images/category/9.png" alt="" />
+                                </a>
+                            </figure>
+                            <div class="category-content">
+                                <h4 class="category-name">
+                                    <a href="products.html">اطعمة ومشروبات</a>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide category category-ellipse ">
+                            <figure class="category-media">
+                                <a href="products.html">
+                                    <img src="assets/images/category/10.png" alt="" />
+                                </a>
+                            </figure>
+                            <div class="category-content">
+                                <h4 class="category-name">
+                                    <a href="products.html">برمجة وتصاميم</a>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide category category-ellipse ">
+                            <figure class="category-media">
+                                <a href="products.html">
+                                    <img src="assets/images/category/11.png" alt="" />
+                                </a>
+                            </figure>
+                            <div class="category-content">
+                                <h4 class="category-name">
+                                    <a href="products.html">مكتبة وفنون</a>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide category category-ellipse ">
+                            <figure class="category-media">
+                                <a href="products.html">
+                                    <img src="assets/images/category/12.png" alt="" />
+                                </a>
+                            </figure>
+                            <div class="category-content">
+                                <h4 class="category-name">
+                                    <a href="products.html">صيد ورحلات</a>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide category category-ellipse ">
+                            <figure class="category-media">
+                                <a href="products.html">
+                                    <img src="assets/images/category/13.png" alt="" />
+                                </a>
+                            </figure>
+                            <div class="category-content">
+                                <h4 class="category-name">
+                                    <a href="products.html">العاب وترفيه</a>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide category category-ellipse ">
+                            <figure class="category-media">
+                                <a href="products.html">
+                                    <img src="assets/images/category/14.png" alt="" />
+                                </a>
+                            </figure>
+                            <div class="category-content">
+                                <h4 class="category-name">
+                                    <a href="products.html">زراعة وحدائق</a>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide category category-ellipse ">
+                            <figure class="category-media">
+                                <a href="products.html">
+                                    <img src="assets/images/category/15.png" alt="" />
+                                </a>
+                            </figure>
+                            <div class="category-content">
+                                <h4 class="category-name">
+                                    <a href="products.html">حفلات ومناسبات</a>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide category category-ellipse ">
+                            <figure class="category-media">
+                                <a href="products.html">
+                                    <img src="assets/images/category/16.png" alt="" />
+                                </a>
+                            </figure>
+                            <div class="category-content">
+                                <h4 class="category-name">
+                                    <a href="products.html">سفر وسياحة</a>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+                <!-- End Of Category Wrapper -->
+            </div>
+
+            <nav class="breadcrumb-nav">
+                <div class="container">
+                    <ul class="breadcrumb bb-no">
+                        <li><a href="demo1.html">Home</a></li>
+                        <li><a href="shop-banner-sidebar.html">Shop</a></li>
+                        <li>Horizontal</li>
+                    </ul>
+                </div>
+            </nav>
+
+
+
+            <div class="container appear-animate mb-5">
+                <div class="flex-content">
+                    <div class="main-content">
+                        <div class="product product-single row">
+                                <h1 class="product-title">مرسيدس e200 حاله فوق الممتازه امكانيه البدل والتسهيلات في السداد</h1>
+                                <div class="addrs-date">
+                                    <span>
+                                        <i class="fas fa-map-marker"></i>
+                                        مصر الجديدة , القاهرة
+                                    </span>
+                                    <span>
+                                        <i class="far fa-calendar-alt"></i>
+                                        تم إضافة الإعلان في 04:44 م, 20 نوفمبر 2021
+                                    </span>
+                                    <span>
+                                        رقم الإعلان : 184267699
+                                    </span>
+                                </div>
+                            <hr>
+                            <div id="inline-gallery-container" class="inline-gallery-container"></div>
+                        </div>
+
+                        <div class="tab tab-nav-boxed tab-nav-underline product-tabs mt-3">
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li class="nav-item">
+                                    <a href="#product-tab-description" class="nav-link active">تفاصيل الاعلان</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#product-tab-reviews" class="nav-link">التقييمات والمراجعات</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="product-tab-description">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <p>شقة 132 متر+ جاردن 149 متر للبيع في الحي التاني ببيت الوطن علي شارع التسعين مباشرا
+                                                ( المراسم، هايدبارك، ميفيدا) وعلى بعد خطوات من خط المونوريل الذى يسهل الحركة بين
+                                                مدينة نصر والعاصمة الإدارية الجديدة مرورا بالتجمع الخامس و المقرر بدأ تشغيله خلال
+                                                عام على الأكثر<br>
+                                                ، <br>
+                                                الموقع : بيت الوطن - التجمع الخامس - القاهرة الجديدة<br><br>
+                                                من أهم مواقع في التجمع الخامس وأفضل مخطط إستراتيجي عام في مصر وأفضل بنية تحتية <br>
+                                                15 دقيقة من مدينه نصر و مصر الجديدة , 10 دقايق لمطار القاهرة , 10 دقايق لمطار
+                                                العاصمة الإدارية الجديدة , 10 دقائق من الجامعة الأمريكية , 15 دقيقة من الجامعة
+                                                الألمانية , علي التسعين دايركت<br><br><br>
+                                                ريسيبشن ثلاث قطع+ تراس + حديقة خاصة + عدد ثلاثة غرف نوم منهم غرفة ماستر +
+                                                دريسينج+عدد2حمام + مطبخ.<br><br>
+                                                اجمالى السعر بالجراج والمخزن: 980.000<br>
+                                                المقدم يبدا من 10% ( 98.000)<br>
+                                                واقساط تصل ل 5 سنوات .<br>
+                                                خصم خاص للكاش<br><br><br>
+                                                ****مزايا ومميزات الاستلام****<br>
+                                                استلام الوحدة نصف تشطيب. &lrm;<br>
+                                                &rlm;&lrm;- &lrm;باب شقة مصفح&lrm; .&lrm;<br>
+                                                &rlm;٤&rlm;&lrm; &lrm;خط مياه مستقل لكل شقة&lrm; .&lrm;<br>
+                                                &rlm;&rlm;&lrm;- &lrm;الوميتال على الواجهة&lrm; .&lrm;<br>
+                                                &rlm;&lrm;- &lrm; كاميرات مراقبة و انتركم مرئي&lrm; .&lrm;<br>
+                                                &rlm;&rlm;&lrm;- &lrm;البدروم بالكامل جراج و مخزن و غرفة حارس<br>
+                                                &rlm;- مداخل رخام فاخرة&lrm; .&lrm;<br>
+                                                &rlm;&lrm; - &lrm;اسقف فلات سلاب&lrm; .&lrm;<br><br>
+                                                **امكانية تشطيب الشركة الوحدات المباعه سوبر لوكس بتسهيلات اثناء عمل المشروع و
+                                                تسليمها &rlm;كاملة التشطيب**&lrm; .&lrm;<br><br>
+                                                **من مزايا منطقة بيت الوطن**<br>
+                                                انه يتكون من 8 أحياء، كل حي له منطقة خدمات متكاملة خاصة به مما يضمن الرقي،
+                                                والخصوصية، والهدوء، ويُطل على منطقة ترفيهية و مساحات خضراء كبيرة ، كما يُطل على
+                                                امتداد شارع الـ 90 الشمالي و قربه من النوادي الكبيرة مثل نادي الجزيرة، ونادي وادي
+                                                دجلة و النادي الأهلي.<br>
+                                                10 دقايق من العاصمة الادارية
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="product-tab-reviews">
+                                    <div class="row mb-4">
+                                        <div class="col-xl-4 col-lg-5 mb-4">
+                                            <div class="ratings-wrapper">
+                                                <div class="avg-rating-container">
+                                                    <h4 class="avg-mark font-weight-bolder ls-50">3.3</h4>
+                                                    <div class="avg-rating">
+                                                        <p class="text-dark mb-1">متوسط التقييمات</p>
+                                                        <div class="ratings-container">
+                                                            <div class="ratings-full">
+                                                                <span class="ratings" style="width: 60%;"></span>
+                                                                <span class="tooltiptext tooltip-top"></span>
+                                                            </div>
+                                                            <a href="#" class="rating-reviews">(3 تقييمات)</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ratings-list">
+                                                    <div class="ratings-container">
+                                                        <div class="ratings-full">
+                                                            <span class="ratings" style="width: 100%;"></span>
+                                                            <span class="tooltiptext tooltip-top"></span>
+                                                        </div>
+                                                        <div class="progress-bar progress-bar-sm ">
+                                                            <span></span>
+                                                        </div>
+                                                        <div class="progress-value">
+                                                            <mark>70%</mark>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ratings-container">
+                                                        <div class="ratings-full">
+                                                            <span class="ratings" style="width: 80%;"></span>
+                                                            <span class="tooltiptext tooltip-top"></span>
+                                                        </div>
+                                                        <div class="progress-bar progress-bar-sm ">
+                                                            <span></span>
+                                                        </div>
+                                                        <div class="progress-value">
+                                                            <mark>30%</mark>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ratings-container">
+                                                        <div class="ratings-full">
+                                                            <span class="ratings" style="width: 60%;"></span>
+                                                            <span class="tooltiptext tooltip-top"></span>
+                                                        </div>
+                                                        <div class="progress-bar progress-bar-sm ">
+                                                            <span></span>
+                                                        </div>
+                                                        <div class="progress-value">
+                                                            <mark>40%</mark>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ratings-container">
+                                                        <div class="ratings-full">
+                                                            <span class="ratings" style="width: 40%;"></span>
+                                                            <span class="tooltiptext tooltip-top"></span>
+                                                        </div>
+                                                        <div class="progress-bar progress-bar-sm ">
+                                                            <span></span>
+                                                        </div>
+                                                        <div class="progress-value">
+                                                            <mark>0%</mark>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ratings-container">
+                                                        <div class="ratings-full">
+                                                            <span class="ratings" style="width: 20%;"></span>
+                                                            <span class="tooltiptext tooltip-top"></span>
+                                                        </div>
+                                                        <div class="progress-bar progress-bar-sm ">
+                                                            <span></span>
+                                                        </div>
+                                                        <div class="progress-value">
+                                                            <mark>0%</mark>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-8 col-lg-7 mb-4">
+                                            <div class="review-form-wrapper">
+                                                <h3 class="title tab-pane-title font-weight-bold mb-3">اكتب سؤالك للمعلن هنا</h3>
+                                                <form action="#" method="POST" class="review-form">
+                                                    <div class="rating-form">
+                                                        <label for="rating">تقييم الاعلان :</label>
+                                                        <span class="rating-stars">
+                                                            <a class="star-1" href="#">1</a>
+                                                            <a class="star-2" href="#">2</a>
+                                                            <a class="star-3" href="#">3</a>
+                                                            <a class="star-4" href="#">4</a>
+                                                            <a class="star-5" href="#">5</a>
+                                                        </span>
+                                                        <select name="rating" id="rating" required=""
+                                                            style="display: none;">
+                                                            <option value="">Rate…</option>
+                                                            <option value="5">Perfect</option>
+                                                            <option value="4">Good</option>
+                                                            <option value="3">Average</option>
+                                                            <option value="2">Not that bad</option>
+                                                            <option value="1">Very poor</option>
+                                                        </select>
+                                                    </div>
+                                                    <textarea cols="30" rows="6"
+                                                        placeholder="اكتب هنا ..." class="form-control"
+                                                        id="review"></textarea>
+                                                    <button type="submit" class="btn btn-dark">ارسال</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab tab-nav-boxed tab-nav-outline tab-nav-center">
+                                        <div class="tab-content">
+                                            <div class="tab-pane active">
+                                                <ul class="comments list-style-none">
+                                                    <li class="comment">
+                                                        <div class="comment-body">
+                                                            <figure class="comment-avatar">
+                                                                <img src="assets/images/icons/user.png"
+                                                                    alt="Commenter Avatar" width="90" height="90">
+                                                            </figure>
+                                                            <div class="comment-content">
+                                                                <h4 class="comment-author">
+                                                                    <a href="#">John Doe</a>
+                                                                    <span class="comment-date">March 22, 2021 at
+                                                                        1:54 pm</span>
+                                                                </h4>
+                                                                <div class="ratings-container comment-rating">
+                                                                    <div class="ratings-full">
+                                                                        <span class="ratings"
+                                                                            style="width: 60%;"></span>
+                                                                        <span
+                                                                            class="tooltiptext tooltip-top"></span>
+                                                                    </div>
+                                                                </div>
+                                                                <p>pellentesque habitant morbi tristique senectus
+                                                                    et. In dictum non consectetur a erat.
+                                                                    Nunc ultrices eros in cursus turpis massa
+                                                                    tincidunt ante in nibh mauris cursus mattis.
+                                                                    Cras ornare arcu dui vivamus arcu felis bibendum
+                                                                    ut tristique.</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="comment">
+                                                        <div class="comment-body">
+                                                            <figure class="comment-avatar">
+                                                                <img src="assets/images/icons/user.png"
+                                                                    alt="Commenter Avatar" width="90" height="90">
+                                                            </figure>
+                                                            <div class="comment-content">
+                                                                <h4 class="comment-author">
+                                                                    <a href="#">John Doe</a>
+                                                                    <span class="comment-date">March 22, 2021 at
+                                                                        1:52 pm</span>
+                                                                </h4>
+                                                                <div class="ratings-container comment-rating">
+                                                                    <div class="ratings-full">
+                                                                        <span class="ratings"
+                                                                            style="width: 80%;"></span>
+                                                                        <span
+                                                                            class="tooltiptext tooltip-top"></span>
+                                                                    </div>
+                                                                </div>
+                                                                <p>Nullam a magna porttitor, dictum risus nec,
+                                                                    faucibus sapien.
+                                                                    Ultrices eros in cursus turpis massa tincidunt
+                                                                    ante in nibh mauris cursus mattis.
+                                                                    Cras ornare arcu dui vivamus arcu felis bibendum
+                                                                    ut tristique.</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="comment">
+                                                        <div class="comment-body">
+                                                            <figure class="comment-avatar">
+                                                                <img src="assets/images/icons/user.png"
+                                                                    alt="Commenter Avatar" width="90" height="90">
+                                                            </figure>
+                                                            <div class="comment-content">
+                                                                <h4 class="comment-author">
+                                                                    <a href="#">John Doe</a>
+                                                                    <span class="comment-date">March 22, 2021 at
+                                                                        1:21 pm</span>
+                                                                </h4>
+                                                                <div class="ratings-container comment-rating">
+                                                                    <div class="ratings-full">
+                                                                        <span class="ratings"
+                                                                            style="width: 60%;"></span>
+                                                                        <span
+                                                                            class="tooltiptext tooltip-top"></span>
+                                                                    </div>
+                                                                </div>
+                                                                <p>In fermentum et sollicitudin ac orci phasellus. A
+                                                                    condimentum vitae
+                                                                    sapien pellentesque habitant morbi tristique
+                                                                    senectus et. In dictum
+                                                                    non consectetur a erat. Nunc scelerisque viverra
+                                                                    mauris in aliquam sem fringilla.</p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of Main Content -->
+                    <aside class="sidebar product-sidebar sidebar-fixed right-sidebar sticky-sidebar-wrapper">
+                        <div class="sidebar-overlay"></div>
+                        <a class="sidebar-close" href="#"><i class="close-icon"></i></a>
+                        <a href="#" class="sidebar-toggle d-flex d-lg-none"><i class="w-icon-call"></i></a>
+                        <div class="sidebar-content scrollable">
+                                <div class="single widget sticky-div">
+                                    <div class="contact-div">
+                                        <h3 class="price-prop">100,000 <span>ر.س</span></h3>
+                                        <div class="phone-mail">
+                                            <button class="ph">
+                                                <img src="assets/images/icons/phone.png" alt="">
+                                                اتصل الان
+                                            </button>
+                                            <button class="whats">
+                                                <img src="assets/images/icons/whatsapp.png" alt="">
+                                                واتساب
+                                            </button>
+                                            <button class="mail">
+                                                <img src="assets/images/icons/email.png" alt="">
+                                                البريد الالكتروني
+                                            </button>
+                                        </div>
+                                        <a href="#" class="like">
+                                            <i class="far fa-heart"></i>
+                                            اضف الي المفضلة
+                                        </a>
+                                    </div>
+                                    <div class="share">
+                                        <p>شارك</p>
+                                        <ul class="netsocials">
+                                            <li><a href="#"><i class="fab fa-facebook-square" aria-hidden="true"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-twitter-square" aria-hidden="true"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-pinterest-square" aria-hidden="true"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="contact-div">
+                                        <div class="waseet">
+                                            <a href="#" class="img"><img src="assets/images/icons/user.png" alt=""></a>
+                                            <a href="#" class="wasset-dt">
+                                                <h3>abdelrahman mohamed</h3>
+                                                <span>عرض اعلانات هذا المستخدم</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="report">
+                                        <i class="fa fa-flag"></i>
+                                        الابلاغ عن الاعلان
+                                    </a>
+                                </div>
+                        </div>
+                    </aside>
+                    <!-- End of Sidebar -->
+                </div>
+            </div>
+
+        </main>
+        <!-- End of Main -->
+
+       <!-- Start of Footer -->
+       <footer class="footer appear-animate">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="widget widget-about mt-0 mb-4">
+                            <a href="#" class="logo-footer">
+                                <img src="assets/images/logo.svg" alt="logo-footer" width="145"
+                                    height="45" />
+                            </a>
+                            <div class="widget-body">
+                                <p class="widget-about-title">Got Question? Call us 24/7</p>
+                                <a href="tel:18005707777" class="widget-about-call">1-800-570-7777</a>
+                                <p class="widget-about-desc">Register now to get updates on pronot get up icons
+                                    & coupons ster now toon.
+                                </p>
+
+                                <div class="social-icons social-icons-colored">
+                                    <a href="#" class="social-icon social-facebook w-icon-facebook"></a>
+                                    <a href="#" class="social-icon social-twitter w-icon-twitter"></a>
+                                    <a href="#" class="social-icon social-instagram w-icon-instagram"></a>
+                                    <a href="#" class="social-icon social-youtube w-icon-youtube"></a>
+                                    <a href="#" class="social-icon social-pinterest w-icon-pinterest"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="widget">
+                            <h3 class="widget-title">Company</h3>
+                            <ul class="widget-body">
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Team Member</a></li>
+                                <li><a href="#">Career</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Affilate</a></li>
+                                <li><a href="#">Order History</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="widget">
+                            <h4 class="widget-title">My Account</h4>
+                            <ul class="widget-body">
+                                <li><a href="#">Track My Order</a></li>
+                                <li><a href="#">View Cart</a></li>
+                                <li><a href="#">Sign In</a></li>
+                                <li><a href="#">Help</a></li>
+                                <li><a href="#">My Wishlist</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="widget">
+                            <h4 class="widget-title">Customer Service</h4>
+                            <ul class="widget-body">
+                                <li><a href="#">Payment Methods</a></li>
+                                <li><a href="#">Money-back guarantee!</a></li>
+                                <li><a href="#">Product Returns</a></li>
+                                <li><a href="#">Support Center</a></li>
+                                <li><a href="#">Shipping</a></li>
+                                <li><a href="#">Term and Conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-left">
+                    <p class="copyright">Copyright © 2021 wasta. All Rights Reserved.</p>
+                </div>
+                <div class="footer-right">
+                    <span class="payment-label mr-lg-8">We're using safe payment for</span>
+                    <figure class="payment">
+                        <img src="assets/images/payment.png" alt="payment" width="159" height="25" />
+                    </figure>
+                </div>
+            </div>
+        </div>
+</footer>
+<!-- End of Footer -->
+</div>
+<!-- End of Page-wrapper -->
+
+
+<!-- Start of Scroll Top -->
+<a id="scroll-top" class="scroll-top" href="#top" title="Top" role="button"> <i class="w-icon-angle-up"></i> <svg
+    version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 70">
+    <circle id="progress-indicator" fill="transparent" stroke="#000000" stroke-miterlimit="10" cx="35" cy="35"
+        r="34" style="stroke-dasharray: 16.4198, 400;"></circle>
+</svg> </a>
+<!-- End of Scroll Top -->
+
+ <!-- Start of Mobile Menu -->
+ <div class="mobile-menu-wrapper">
+    <div class="mobile-menu-overlay"></div>
+    <!-- End of .mobile-menu-overlay -->
+
+    <a href="#" class="mobile-menu-close"><i class="close-icon"></i></a>
+    <!-- End of .mobile-menu-close -->
+
+    <div class="mobile-menu-container scrollable">
+        <form action="#" method="get" class="input-wrapper">
+            <input type="text" class="form-control" name="search" autocomplete="off" placeholder="ابحث هنا"
+                required />
+            <button class="btn btn-search" type="submit">
+                <i class="w-icon-search"></i>
+            </button>
+        </form>
+        <!-- End of Search Form -->
+        <div class="tab">
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-item">
+                    <a href="#main-menu" class="nav-link active">القائمة الرئيسية</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#categories" class="nav-link">الاقسام</a>
+                </li>
+            </ul>
+        </div>
+        <div class="tab-content">
+            <div class="tab-pane active" id="main-menu">
+                <ul class="mobile-menu">
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li>
+                        <a href="products.html">الماركات</a>
+                        <ul>
+                            <li><a href="products.html">تويوتا</a></li>
+                            <li><a href="products.html">فورد</a></li>
+                            <li><a href="products.html">شيفروليه</a></li>
+                            <li><a href="products.html">نيسان</a></li>
+                            <li><a href="products.html">بى ام دبليو</a></li>
+                            <li><a href="products.html">رينو</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="products.html">مستلزمات نسائية</a></li>
+                    <li><a href="flash.html">عروض فلاش</a></li>
+                    <li><a href="auctions.html">المزاد</a></li>
+                    <li><a href="about.html">من نحن</a></li>
+                    <li><a href="contact.html">مساعدة واتصال</a></li>         
+                </ul>
+            </div>
+            <div class="tab-pane" id="categories">
+                <ul class="mobile-menu categories-div">
+                    <li>
+                        <a href="products.html">
+                            <img src="assets/images/category/1.png" alt="">
+                            سيارات
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="products.html">تويوتا</a>
+                                <ul>
+                                    <li><a href="products.html">كامري</a></li>
+                                    <li><a href="products.html">كامري</a></li>
+                                    <li><a href="products.html">كامري</a></li>
+                                    <li><a href="products.html">كامري</a></li>
+                                    <li><a href="products.html">كامري</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="products.html">فورد</a>
+                                <ul>
+                                    <li><a href="products.html">كامري</a></li>
+                                    <li><a href="products.html">كامري</a></li>
+                                    <li><a href="products.html">كامري</a></li>
+                                    <li><a href="products.html">كامري</a></li>
+                                    <li><a href="products.html">كامري</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="products.html">نيسان</a>
+                                <ul>
+                                    <li><a href="products.html">كامري</a></li>
+                                    <li><a href="products.html">كامري</a></li>
+                                    <li><a href="products.html">كامري</a></li>
+                                    <li><a href="products.html">كامري</a></li>
+                                    <li><a href="products.html">كامري</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="products.html">
+                            <img src="assets/images/category/2.png" alt="">
+                            عقارات
+                        </a>
+                    </li>
+                    <li>
+                        <a href="products.html">
+                            <img src="assets/images/category/3.png" alt="">
+                            اجهزة
+                        </a>
+                    </li>
+                    <li>
+                        <a href="products.html">
+                            <img src="assets/images/category/4.png" alt="">
+                            حيوانات وطيور
+                        </a>
+                    </li>
+                    <li>
+                        <a href="products.html">
+                            <img src="assets/images/category/5.png" alt="">
+                            اثاث
+                        </a>
+                    </li>
+                    <li>
+                        <a href="products.html">
+                            <img src="assets/images/category/6.png" alt="">
+                            مستلزمات شخصية
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End of Mobile Menu -->
+
+<!-- Modal -->
+<div class=" modal login-modal inner-pages" id="login-register">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="login">
+                <form class="login-form">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        class="body__svg" style="display: none;">
+                        <defs>
+                            <g id="svg-facebook">
+                                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="Desktop-Log-In--" transform="translate(-190.000000, -198.000000)"
+                                        fill="#FEFEFE">
+                                        <g id="Connect-with-Facebook" transform="translate(166.000000, 186.000000)">
+                                            <g id="Group">
+                                                <path
+                                                    d="M31.9328743,35 L27.6347873,35 L27.6347873,23.5309121 L24.7675854,23.5309121 L24.7675854,19.5782401 L27.6347873,19.5768961 L27.6301953,17.248481 C27.6301953,14.0238238 28.5045409,12.0618241 32.3028177,12.0618241 L35.4653137,12.0618241 L35.4653137,16.0151681 L33.4888657,16.0151681 C32.0096518,16.0151681 31.9385864,16.5675073 31.9385864,17.5984881 L31.9326503,19.5768961 L35.4874341,19.5768961 L35.0684897,23.529568 L31.9357303,23.5309121 L31.9328743,35 Z"
+                                                    id="Logo-Facebook"></path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                            <g id="svg-googleplus">
+                                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="Desktop-Log-In--" transform="translate(-183.000000, -256.000000)">
+                                        <g id="logo_googleg_48dp" transform="translate(183.000000, 256.000000)">
+                                            <g id="Group-2-Copy">
+                                                <path
+                                                    d="M21.56,11.25 C21.56,10.47 21.49,9.72 21.36,9 L11,9 L11,13.255 L16.92,13.255 C16.665,14.63 15.89,15.795 14.725,16.575 L14.725,19.335 L18.28,19.335 C20.36,17.42 21.56,14.6 21.56,11.25 L21.56,11.25 Z"
+                                                    id="Shape" fill="#4285F4"></path>
+                                                <path
+                                                    d="M11,22 C13.97,22 16.46,21.015 18.28,19.335 L14.725,16.575 C13.74,17.235 12.48,17.625 11,17.625 C8.135,17.625 5.71,15.69 4.845,13.09 L1.17,13.09 L1.17,15.94 C2.98,19.535 6.7,22 11,22 L11,22 Z"
+                                                    id="Shape" fill="#34A853"></path>
+                                                <path
+                                                    d="M4.845,13.09 C4.625,12.43 4.5,11.725 4.5,11 C4.5,10.275 4.625,9.57 4.845,8.91 L4.845,6.06 L1.17,6.06 C0.425,7.545 0,9.225 0,11 C0,12.775 0.425,14.455 1.17,15.94 L4.845,13.09 L4.845,13.09 Z"
+                                                    id="Shape" fill="#FBBC05"></path>
+                                                <path
+                                                    d="M11,4.375 C12.615,4.375 14.065,4.93 15.205,6.02 L18.36,2.865 C16.455,1.09 13.965,0 11,0 C6.7,0 2.98,2.465 1.17,6.06 L4.845,8.91 C5.71,6.31 8.135,4.375 11,4.375 L11,4.375 Z"
+                                                    id="Shape" fill="#EA4335"></path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </defs>
+                    </svg>
+                    <h3 class="text-header">تسجيل الدخول</h3>
+                    <img class="logo-modal" src="assets/images/logo-dark.svg" alt="">
+                    <div class="authentication__btn authentication__btn--facebook"><span class="svg">
+                            <svg viewBox="0 0 12 23" class="authentication__btn-icon authentication__btn-icon--fb">
+                                <use xlink:href="#svg-facebook"></use>
+                            </svg>
+                        </span><span class="authentication__btn-txt authentication__btn-txt--fb">قم
+                            بتسجيل الدخول
+                            باستخدام الفيسبوك</span></div>
+                    <div class="authentication__btn authentication__btn--google"><span class="svg">
+                            <svg viewBox="0 0 22 22"
+                                class="authentication__btn-icon authentication__btn-icon--google">
+                                <use xlink:href="#svg-googleplus"></use>
+                            </svg>
+                        </span><span class="authentication__btn-txt">تسجيل الدخول مع Google</span></div>
+                    <div class="divider"><span>او</span></div>
+                    <div class="form-group mb-4">
+                        <div class="pos-relative">
+                            <input type="text" class="form-control" name="" id="">
+                            <span>اسم المستخدم</span>
+                        </div>
+
+                    </div>
+                    <div class="form-group">
+                        <div class="pos-relative">
+                            <input type="password" class="form-control" name="" id="" value="">
+                            <span>كلمة المرور</span>
+                        </div>
+                    </div>
+                    <div class="form-checkbox d-flex align-items-center justify-content-between">
+                        <input type="checkbox" class="custom-checkbox" id="remember1" name="remember1" required="">
+                        <label for="remember1">تذكرني</label>
+                        <a href="#">نسيت كلمة المرور ؟</a>
+                    </div>
+                    <a href="#" class="full-width btn btn-secondary">الدخول</a>
+                    <div class="text-center add_top_15">ليس لديك حساب ؟
+                        <strong><a href="javascript:;" class="show-register-form">انشاء حساب</a></strong></div>
+                </form>
+
+                <form class="register-form">
+                    <h3 class="text-header">مستخدم جديد</h3>
+                    <img class="logo-modal" src="assets/images/logo-dark.svg" alt="">
+                    <div class="form-group mb-4">
+                        <div class="pos-relative">
+                            <input type="text" class="form-control" name="" id="">
+                            <span>الاسم</span>
+                        </div>
+                    </div>
+                    <div class="form-group mb-4">
+                        <div class="pos-relative">
+                            <input type="email" class="form-control" name="" id="" value="">
+                            <span>البريد الالكتروني</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="pos-relative">
+                            <input type="password" class="form-control" name="" id="" value="">
+                            <span>كلمة المرور</span>
+                        </div>
+                    </div>
+                    <a href="#" class="full-width btn btn-secondary">اضف حسابك</a>
+                    <div class="authentication__compliance-text">
+                        <div class="form-checkbox d-flex align-items-center">
+                            <input type="checkbox" class="custom-checkbox" id="remember" name="remember"
+                                required="">
+                            <label for="remember">اوافق علي تطبيق <a href="#" class="text-primary">الشروط
+                                    والاحكام</a></label>
+                        </div>
+                    </div>
+                    <div class="text-center add_top_15"> لديك حساب بالفعل ؟
+                        <strong><a href="javascript:;" class="show-login-form">سجل الدخول هنا</a></strong></div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="add-ads modal login-modal inner-pages" id="add-ads">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="login">
+                <h3 class="ads-title">ماذا تريد أن تضيف ؟</h3>
+                <ul class="add-btns">
+                    <li>
+                        <a href="add-ads.html" class="btn btn-ellipse btn-custom">
+                            <img src="assets/images/icons/plus.gif" alt="">
+                            اضافة اعلان
+                        </a>
+                    </li>
+                    <li>
+                        <a href="add-flash.html" class="btn btn-ellipse btn-custom">
+                            <img src="assets/images/icons/thunder.gif" alt="">
+                            اضافة عروض فلاش
+                        </a>
+                    </li>
+                    <li>
+                        <a href="add-auctions.html" class="btn btn-ellipse btn-custom">
+                            <img src="assets/images/icons/acution.gif" alt="">
+                            اضافة مزاد
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- story -->
+<!-- story-preview -->
+<div class="story-prev">
+    <div class="story-sidebar">
+        <h3 class="all-story">كل الحالات</h3>
+        <div class="story-sidebar-scrollbar">
+            <!-- <a class="create-story" href="#">
+                <svg class="" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                </svg>
+                <div class="create-div">
+                    <h3>اضافة حالة</h3>
+                    <p>شارك صورة او فيديو او اكتب اي شئ</p>
+                </div>
+            </a>
+            <h3 class="friends-story"> حالات اخري </h3> -->
+            <div class="story-users-list">
+                <a href="#" class="active">
+                    <div class="story-media">
+                        <img src="assets/images/agents/1.png" alt="">
+                    </div>
+                    <div class="story-text">
+                        <div class="story-username"> Dennis Han</div>
+                        <span class="story-time"> 4Mn ago</span>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="story-media">
+                        <img src="assets/images/agents/2.png" alt="">
+                    </div>
+                    <div class="story-text">
+                        <div class="story-username"> Dennis Han</div>
+                        <span class="story-time"> 4Mn ago</span>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="story-media">
+                        <img src="assets/images/agents/3.png" alt="">
+                    </div>
+                    <div class="story-text">
+                        <div class="story-username"> Dennis Han</div>
+                        <span class="story-time"> 4Mn ago</span>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="story-media">
+                        <img src="assets/images/agents/1.png" alt="">
+                    </div>
+                    <div class="story-text">
+                        <div class="story-username"> Dennis Han</div>
+                        <span class="story-time"> 4Mn ago</span>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="story-media">
+                        <img src="assets/images/agents/2.png" alt="">
+                    </div>
+                    <div class="story-text">
+                        <div class="story-username"> Dennis Han</div>
+                        <span class="story-time"> 4Mn ago</span>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="story-media">
+                        <img src="assets/images/agents/3.png" alt="">
+                    </div>
+                    <div class="story-text">
+                        <div class="story-username"> Dennis Han</div>
+                        <span class="story-time"> 4Mn ago</span>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="story-media">
+                        <img src="assets/images/agents/1.png" alt="">
+                    </div>
+                    <div class="story-text">
+                        <div class="story-username"> Dennis Han</div>
+                        <span class="story-time"> 4Mn ago</span>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="story-media">
+                        <img src="assets/images/agents/1.png" alt="">
+                    </div>
+                    <div class="story-text">
+                        <div class="story-username"> Dennis Han</div>
+                        <span class="story-time"> 4Mn ago</span>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="story-media">
+                        <img src="assets/images/agents/2.png" alt="">
+                    </div>
+                    <div class="story-text">
+                        <div class="story-username"> Dennis Han</div>
+                        <span class="story-time"> 4Mn ago</span>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="story-media">
+                        <img src="assets/images/agents/1.png" alt="">
+                    </div>
+                    <div class="story-text">
+                        <div class="story-username"> Dennis Han</div>
+                        <span class="story-time"> 4Mn ago</span>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="story-media">
+                        <img src="assets/images/agents/1.png" alt="">
+                    </div>
+                    <div class="story-text">
+                        <div class="story-username"> Dennis Han</div>
+                        <span class="story-time"> 4Mn ago</span>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="story-media">
+                        <img src="assets/images/agents/2.png" alt="">
+                    </div>
+                    <div class="story-text">
+                        <div class="story-username"> Dennis Han</div>
+                        <span class="story-time"> 4Mn ago</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="story-content">
+        <div class="box-content">
+            <!-- في حالة صورة او فيديو + نصوص -->
+            <!-- <div class="img-video">
+                <img src="assets/images/story.jpg" class="story-slider-image">
+                <video class="video-story video-fluid z-depth-1" autoplay loop controls> 
+                    <source src="https://mdbootstrap.com/img/video/Sail-Away.mp4" type="video/mp4" />
+                </video>
+                <div class="details-story">
+                    <p>لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص
+                        بالتصاميم سواء كانت تصاميم مطبوعه ... بروشور او فلاير على سبيل المثال ... او نماذج مواقع
+                        انترنت ...
+
+                        وعند موافقه العميل المبدئيه على التصميم يتم ازالة هذا النص من التصميم ويتم وضع النصوص
+                        النهائية المطلوبة للتصميم ويقول البعض ان وضع النصوص التجريبية بالتصميم قد تشغل المشاهد عن
+                        وضع الكثير من الملاحظات او الانتقادات للتصميم الاساسي.
+
+                        وخلافاَ للاعتقاد السائد فإن لوريم إيبسوم ليس نصاَ عشوائياً، بل إن له جذور في الأدب اللاتيني
+                        الكلاسيكي منذ العام 45 قبل الميلاد. من كتاب "حول أقاصي الخير والشر"</p>
+                    <a href="#">المزيد من التفاصيل</a>
+                </div>
+            </div> -->
+
+            <!-- في حالة النصوص فقط -->
+            <div class="content-text">
+                <p>لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم
+                    سواء كانت تصاميم مطبوعه ... بروشور او فلاير على سبيل المثال ... او نماذج مواقع انترنت ...
+
+                    وعند موافقه العميل المبدئيه على التصميم يتم ازالة هذا النص من التصميم ويتم وضع النصوص النهائية
+                    المطلوبة للتصميم ويقول البعض ان وضع النصوص التجريبية بالتصميم قد تشغل المشاهد عن وضع الكثير من
+                    الملاحظات او الانتقادات للتصميم الاساسي.
+
+                    وخلافاَ للاعتقاد السائد فإن لوريم إيبسوم ليس نصاَ عشوائياً، بل إن له جذور في الأدب اللاتيني
+                    الكلاسيكي منذ العام 45 قبل الميلاد. من كتاب "حول أقاصي الخير والشر"</p>
+                <a href="#">المزيد من التفاصيل</a>
+            </div>
+        </div>
+    </div>
+    <!-- story close button-->
+    <span class="story-btn-close">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+    </span>
+</div>
+
+
+<!-- Plugin JS File -->
+<script src="assets/vendor/jquery/jquery.min.js"></script>
+<script src="assets/vendor/parallax/parallax.min.js"></script>
+<script src="assets/vendor/jquery.plugin/jquery.plugin.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+<script src="assets/vendor/skrollr/skrollr.min.js"></script>
+<script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="assets/vendor/jquery.count-to/jquery.count-to.min.js"></script>
+<script src="assets/vendor/zoom/jquery.zoom.js"></script>
+<script src="assets/vendor/jquery.countdown/jquery.countdown.min.js"></script>
+<script src="assets/js/jquery-modal-master/jquery.modal.js"></script>
+<script src="assets/js/lightgallery/lightgallery.umd.js"></script>
+<script src="assets/js/lightgallery/lg-zoom.umd.js"></script>
+<script src="assets/js/lightgallery/lg-thumbnail.umd.js"></script>
+<script>
+    const lgContainer = document.getElementById('inline-gallery-container');
+    const inlineGallery = lightGallery(lgContainer, {
+        container: lgContainer,
+        plugins: [lgZoom, lgThumbnail],
+        dynamic: true,
+        mode: 'lg-slide-vertical',
+        hash: false,
+        closable: false,
+        showMaximizeIcon: true,
+        appendSubHtmlTo: '.lg-item',
+        dynamicEl: [{
+                src: 'https://www.timeoutdubai.com/cloud/timeoutdubai/2021/09/11/hfpqyV7B-IMG-Dubai-UAE-1200x800.jpg',
+                thumb: 'https://www.timeoutdubai.com/cloud/timeoutdubai/2021/09/11/hfpqyV7B-IMG-Dubai-UAE-1200x800.jpg'
+            },
+            {
+                src: 'https://global-uploads.webflow.com/5ef5480befd392489dacf544/5f9f5e5943de7e69a1339242_5f44a7398c0cdf460857e744_img-image.jpeg',
+                thumb: 'https://global-uploads.webflow.com/5ef5480befd392489dacf544/5f9f5e5943de7e69a1339242_5f44a7398c0cdf460857e744_img-image.jpeg'
+            },
+        ]
+    });
+
+    // Since we are using dynamic mode, we need to programmatically open lightGallery
+    inlineGallery.openGallery();
+</script>
+<script>
+    $(".checkbox-option").on("click", function () {
+        $(this).toggleClass("checked");
+        var a = $(this).find("input");
+        a.prop("checked") === !1 ? a.prop("checked", !0) : a.prop("checked", !1)
+    });
+</script>
+<!-- include FilePond library -->
+<script src="assets/js/filepond/filepond.min.js"></script>
+<script src="assets/js/filepond/filepond-plugin-image-preview.min.js"></script>
+<script src="assets/js/filepond/filepond.jquery.js"></script>
+
+<script>
+    FilePond.registerPlugin(FilePondPluginImagePreview);
+    $('.my-pond').filepond({
+        allowMultiple: true,
+    });
+</script>
+<script>
+    $('.icon-mode-grid').click(function () {
+        $('.icon-mode-list').removeClass('active');
+        $(this).addClass('active');
+        $('.product-wrapper').removeClass('list');
+    });
+
+    $('.icon-mode-list').click(function () {
+        $('.icon-mode-grid').removeClass('active');
+        $(this).addClass('active');
+        $('.product-wrapper').addClass('list');
+    });
+
+    $(".show-register-form").click(function (e) {
+        $(".login-form").hide();
+        $(".register-form").show();
+    });
+
+    $(".show-login-form").click(function (e) {
+        $(".register-form").hide();
+        $(".login-form").show();
+    });
+
+    $('a.login').click(function (event) {
+        $('#login-register').modal();
+    });
+
+    $('.add-lis').click(function (event) {
+        $('#add-ads').modal();
+    });
+
+    // story
+    $('.story-box').click(function () {
+        $('body').addClass('story-active');
+    });
+    $('.story-btn-close').click(function () {
+        $('body').removeClass('story-active');
+    });
+</script>
+<!-- Main JS -->
+<script src="assets/js/main.min.js"></script>
+</body>
+
+</html>
